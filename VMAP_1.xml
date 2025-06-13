@@ -1,7 +1,23 @@
-<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
-  <vmap:AdBreak timeOffset="00:00:30.000" breakType="linear">
-    <vmap:AdSource allowMultipleAds="false" followRedirects="true">
-      <vmap:AdTagURI templateType="vast3"><![CDATA[http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]></vmap:AdTagURI>
-    </vmap:AdSource>
-  </vmap:AdBreak>
-</vmap:VMAP>
+<VMAP xmlns="http://www.iab.net/videosuite/vmap" version="1.0">
+  <AdBreak timeOffset="start" breakType="linear">
+    <AdSource id="preroll" allowMultipleAds="false" followRedirects="true">
+      <AdTagURI templateType="vast3">
+        <![CDATA[https://raw.githubusercontent.com/raychevamarina/streem/refs/heads/main/vast_1.xml]]>
+      </AdTagURI>
+    </AdSource>
+  </AdBreak>
+  <AdBreak timeOffset="00:00:10.000" breakType="linear">
+    <AdSource id="midroll" allowMultipleAds="false" followRedirects="true">
+      <AdTagURI templateType="vast3">
+        <![CDATA[https://raw.githubusercontent.com/raychevamarina/streem/refs/heads/main/vast_1.xml]]>
+      </AdTagURI>
+    </AdSource>
+  </AdBreak>
+  <AdBreak timeOffset="end" breakType="linear">
+    <AdSource id="postroll" allowMultipleAds="false" followRedirects="true">
+      <AdTagURI templateType="vast3">
+        <![CDATA[https://raw.githubusercontent.com/raychevamarina/streem/refs/heads/main/vast_1.xml]]>
+      </AdTagURI>
+    </AdSource>
+  </AdBreak>
+</VMAP>
