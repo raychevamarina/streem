@@ -1,0 +1,28 @@
+<VMAP xmlns="http://www.iab.net/videosuite/vmap" version="1.0">
+  <!-- Pre-roll -->
+  <AdBreak timeOffset="start" breakType="linear">
+    <AdSource id="preroll" allowMultipleAds="false" followRedirects="true">
+      <AdTagURI templateType="vast3">
+        <![CDATA[http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]>
+      </AdTagURI>
+    </AdSource>
+  </AdBreak>
+
+  <!-- Mid-roll 30 sek -->
+  <AdBreak timeOffset="00:00:30.000" breakType="linear">
+    <AdSource id="midroll" allowMultipleAds="false" followRedirects="true">
+      <AdTagURI templateType="vast3">
+        <![CDATA[http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]>
+      </AdTagURI>
+    </AdSource>
+  </AdBreak>
+
+  <!-- Post-roll -->
+  <AdBreak timeOffset="end" breakType="linear">
+    <AdSource id="postroll" allowMultipleAds="false" followRedirects="true">
+      <AdTagURI templateType="vast3">
+        <![CDATA[http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]>
+      </AdTagURI>
+    </AdSource>
+  </AdBreak>
+</VMAP>
