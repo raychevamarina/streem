@@ -3,14 +3,14 @@
     <InLine>
       <AdSystem>My Ad Server</AdSystem>
       <AdTitle>Demo Ad</AdTitle>
-      <Impression><![CDATA[https://your-server.com/impression]]></Impression>
+      <Impression><![CDATA[https://weiss-sp.sportsmax.digicelpacific.com/impression]]></Impression>
       <Creatives>
         <Creative sequence="1">
           <Linear>
             <Duration>00:00:30</Duration>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                <![CDATA[https://your-server.com/ad.mp4]]>
+                <![CDATA[https://test-videos.co.uk/bigbuckbunny/mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
