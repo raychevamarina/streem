@@ -10,7 +10,7 @@
             <Duration>00:00:30</Duration>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                <![CDATA[https://test-videos.co.uk/bigbuckbunny/mp4]]>
+                <![CDATA[http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
